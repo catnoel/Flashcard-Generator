@@ -4,3 +4,13 @@
 // constructed object should have a front property that contains the
 // text on the front of the card. The constructed object should have a
 // back property that contains the text on the back of the card.
+
+
+BasicCard = function(front, back) {
+	this.front = front;
+	this.back = back;
+	}
+
+var firstQuestion = new BasicCard("What is Cat's favorite Color?", "Red");
+console.log(firstQuestion.front)
+console.log(firstQuestion.back)
