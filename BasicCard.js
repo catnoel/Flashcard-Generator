@@ -11,6 +11,18 @@ BasicCard = function(front, back) {
 	this.back = back;
 	}
 
-var firstQuestion = new BasicCard("What is Cat's favorite Color?", "Red");
-console.log(firstQuestion.front)
-console.log(firstQuestion.back)
+	var firstQuestion = new BasicCard("What is Cat's favorite Color?", "Red");
+	var secondQuestion = new BasicCard("Where did Cat grow up?", "New York City")
+
+	console.log(firstQuestion.front)
+	setTimeout(function () {
+  		console.log(firstQuestion.back)
+	}, 3000);
+
+	setTimeout(function () {
+  		console.log(secondQuestion.front)
+	}, 4000);
+
+	setTimeout(function () {
+  		console.log(secondQuestion.back)
+	}, 8000);

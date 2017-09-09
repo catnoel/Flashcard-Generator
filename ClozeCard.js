@@ -9,3 +9,9 @@
 // The constructor should throw or log an error when the cloze deletion does
 // not appear in the input text. Use prototypes to attach these methods,
 // wherever possible.
+
+
+ClozeCard = function(text,cloze) {
+	this.text = partialText;
+	this.cloze = fullText;
+}
